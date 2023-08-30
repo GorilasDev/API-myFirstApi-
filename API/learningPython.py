@@ -51,6 +51,16 @@ s3 = float(input("Write your Chemistry grade: "))
 if ( (s1 >= 7) and (s2 >= 7) and (s3 >= 7) ):
     print("You have passed this subject! Keep up the good work.")
 
+
 else:
     print("Try again, loser!")
+
+ favoriteFood = "Pizza"
+ yearOfBirth = 1995
+ randomVariable = yearOfBirth/28
+ myId = "I love %s, I born in %i and my age is 28 years. 1995/28 is %.2f" % (favoriteFood, yearOfBirth, randomVariable)
+
+print(myId)
+
+
 
