@@ -32,17 +32,17 @@
 # x = int(input("digite um numero inteiro: "))
 # y = int(input("digite outro numero inteiro: "))
 # print("The result of ( %d + %i ) is %d" % (x, y, x + y))
-# print("The result of ( {} + {} ) is {}".format(x, y, x + y))
+ print("The result of ( {} + {} ) is {}".format(x, y, x + y))
 
-# number2 = int(input("digite outro numero inteiro: "))
+ number2 = int(input("digite outro numero inteiro: "))
 
-# number1 = int(input("digite um numero inteiro: "))
+ number1 = int(input("digite um numero inteiro: "))
 
-# if (number1 % 2 == 0):
-#     print("The number is even")
+if (number1 % 2 == 0):
+     print("The number is even")
 
-# else:
-#     print("The number is odd")
+else:
+    print("The number is odd")
 
 s1 = float(input("Write your Physics grade: "))
 s2 = float(input("Write your Math grade: "))
